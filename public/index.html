@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f3f2ef">
+    <meta name="description" content="A professional community to connect, share, and grow.">
+    <title>LinkedIn Clone | Home</title>
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar__inner">
+        <a class="brand" href="#" aria-label="LinkedIn Clone home">
+          <span class="brand__mark" aria-hidden="true">in</span>
+        </a>
+        <label class="search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg>
+          <input type="search" placeholder="Search" aria-label="Search">
+        </label>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a class="nav-item nav-item--active" href="#">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1z"></path></svg>
+            <span>Home</span>
+          </a>
+          <a class="nav-item" href="#">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3.5"></circle><path d="M2.5 20v-1.5a6.5 6.5 0 0 1 13 0V20M16 5a3.5 3.5 0 0 1 0 6.8M18 14a5.5 5.5 0 0 1 3.5 5.1V20"></path></svg>
+            <span>My Network</span>
+          </a>
+          <a class="nav-item" href="#">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="14" rx="2"></rect><path d="M8 6V4h8v2M3 11h18M10 11v2h4v-2"></path></svg>
+            <span>Jobs</span>
+          </a>
+          <a class="nav-item" href="#">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v12H9l-5 4z"></path><path d="M8 9h8M8 13h5"></path></svg>
+            <span>Messaging</span>
+          </a>
+          <a class="nav-item" href="#">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 9a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4"></path></svg>
+            <span>Notifications</span>
+          </a>
+          <a class="nav-item nav-item--profile" href="#">
+            <span class="avatar avatar--small avatar--person" aria-hidden="true">JS</span>
+            <span>Me <span class="chevron" aria-hidden="true">⌄</span></span>
+          </a>
+          <span class="nav-divider" aria-hidden="true"></span>
+          <a class="nav-item nav-item--business" href="#">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"></rect><rect x="14" y="3" width="7" height="7" rx="1"></rect><rect x="3" y="14" width="7" height="7" rx="1"></rect><rect x="14" y="14" width="7" height="7" rx="1"></rect></svg>
+            <span>For Business <span class="chevron" aria-hidden="true">⌄</span></span>
+          </a>
+          <a class="premium-link" href="#">Try Premium for free</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="layout">
+      <aside class="left-column" aria-label="Your profile">
+        <section class="card profile-card">
+          <div class="profile-cover"></div>
+          <a class="avatar avatar--large avatar--person profile-avatar" href="#" aria-label="View Jane Smith's profile">JS</a>
+          <div class="profile-card__body">
+            <a class="profile-name" href="#">Jane Smith</a>
+            <p class="profile-headline">Product Designer | Making digital experiences more human</p>
+            <p class="profile-location">San Francisco Bay Area</p>
+            <a class="profile-company" href="#"><span class="company-mark">N</span> Northstar Studio</a>
+          </div>
+          <div class="profile-stats">
+            <a href="#"><span>Profile viewers</span><strong>142</strong></a>
+            <a href="#"><span>Post impressions</span><strong>1,208</strong></a>
+          </div>
+          <a class="premium-card" href="#">
+            <span>Access exclusive tools and insights</span>
+            <strong><span class="premium-gem" aria-hidden="true">◆</span> Try Premium for free</strong>
+          </a>
+          <a class="saved-link" href="#"><span aria-hidden="true">▰</span> Saved items</a>
+        </section>
+
+        <section class="card sidebar-card">
+          <h2>Recent</h2>
+          <a href="#"><span aria-hidden="true">#</span> productdesign</a>
+          <a href="#"><span aria-hidden="true">#</span> designleadership</a>
+          <a href="#"><span aria-hidden="true">#</span> uxresearch</a>
+          <a class="sidebar-card__discover" href="#">Groups</a>
+          <a class="sidebar-card__discover" href="#">Events <span class="plus">+</span></a>
+          <a class="sidebar-card__discover" href="#">Followed hashtags</a>
+          <a class="discover-link" href="#">Discover more</a>
+        </section>
+      </aside>
+
+      <section class="feed-column" aria-label="Your feed">
+        <section class="card composer">
+          <div class="composer__top">
+            <span class="avatar avatar--medium avatar--person" aria-hidden="true">JS</span>
+            <button type="button" class="composer-prompt">Start a post</button>
+          </div>
+          <div class="composer__actions">
+            <button type="button"><span class="action-icon action-icon--photo" aria-hidden="true">▧</span> Media</button>
+            <button type="button"><span class="action-icon action-icon--event" aria-hidden="true">▦</span> Event</button>
+            <button type="button"><span class="action-icon action-icon--article" aria-hidden="true">▤</span> Write article</button>
+          </div>
+        </section>
+
+        <div class="feed-sort"><span></span><button type="button">Sort by: <strong>Top</strong> <span class="chevron" aria-hidden="true">⌄</span></button></div>
+
+        <article class="card post">
+          <div class="post__header">
+            <a class="avatar avatar--medium avatar--maya" href="#" aria-label="View Maya Chen's profile">MC</a>
+            <div class="post__author">
+              <a href="#"><strong>Maya Chen</strong> <span class="connection">· 1st</span></a>
+              <p>Design Lead at Figma · Product design</p>
+              <p>2h · <span aria-label="Visible to anyone">◎</span></p>
+            </div>
+            <button type="button" class="icon-button" aria-label="More options">•••</button>
+          </div>
+          <p class="post__text">The best design systems don't just make products consistent. They make it easier for teams to focus on the problems that matter. A few things we learned while evolving ours this year:</p>
+          <ul class="post__list">
+            <li>Start with the moments of friction, not the component inventory.</li>
+            <li>Document decisions in the context where people need them.</li>
+            <li>Make contribution feel as easy as consumption.</li>
+          </ul>
+          <a class="post__tag" href="#">#designsystems</a> <a class="post__tag" href="#">#productdesign</a>
+          <div class="post__engagement">
+            <span><span class="reaction-icons" aria-hidden="true">👍 💡</span> 248</span>
+            <span>32 comments · 14 reposts</span>
+          </div>
+          <div class="post__actions">
+            <button type="button"><span aria-hidden="true">♡</span> Like</button>
+            <button type="button"><span aria-hidden="true">▢</span> Comment</button>
+            <button type="button"><span aria-hidden="true">↻</span> Repost</button>
+            <button type="button"><span aria-hidden="true">➤</span> Send</button>
+          </div>
+        </article>
+
+        <article class="card post">
+          <div class="post__header">
+            <a class="avatar avatar--medium avatar--leo" href="#" aria-label="View Leo Martin's profile">LM</a>
+            <div class="post__author">
+              <a href="#"><strong>Leo Martin</strong> <span class="connection">· 2nd</span></a>
+              <p>Founder, Goodside Coffee</p>
+              <p>5h · <span aria-label="Visible to anyone">◎</span></p>
+            </div>
+            <button type="button" class="icon-button" aria-label="More options">•••</button>
+          </div>
+          <p class="post__text">A small reminder for anyone building something new: your first version isn't supposed to impress everyone. It's supposed to teach you something.</p>
+          <div class="post__engagement">
+            <span><span class="reaction-icons" aria-hidden="true">👍 ❤️</span> 86</span>
+            <span>9 comments</span>
+          </div>
+          <div class="post__actions">
+            <button type="button"><span aria-hidden="true">♡</span> Like</button>
+            <button type="button"><span aria-hidden="true">▢</span> Comment</button>
+            <button type="button"><span aria-hidden="true">↻</span> Repost</button>
+            <button type="button"><span aria-hidden="true">➤</span> Send</button>
+          </div>
+        </article>
+      </section>
+
+      <aside class="right-column" aria-label="News and recommendations">
+        <section class="card news-card">
+          <div class="card-heading"><h2>LinkedIn News</h2><span class="info-icon" title="These stories are selected for you">i</span></div>
+          <p class="news-subtitle">Top stories</p>
+          <a class="news-item" href="#"><strong>AI skills move up the hiring list</strong><span>3h ago · 8,421 readers</span></a>
+          <a class="news-item" href="#"><strong>Startups rethink the return to office</strong><span>5h ago · 4,103 readers</span></a>
+          <a class="news-item" href="#"><strong>What new grads want from employers</strong><span>6h ago · 2,719 readers</span></a>
+          <a class="news-item" href="#"><strong>Design teams embrace smaller launches</strong><span>8h ago · 1,882 readers</span></a>
+          <a class="news-item" href="#"><strong>Green jobs grow across the US</strong><span>1d ago · 1,506 readers</span></a>
+          <button type="button" class="more-news">Show more <span aria-hidden="true">⌄</span></button>
+        </section>
+
+        <section class="card suggestions-card">
+          <div class="card-heading"><h2>People you may know</h2><span class="info-icon" title="Suggestions based on your profile">i</span></div>
+          <div class="suggestion">
+            <a class="avatar avatar--small avatar--priya" href="#" aria-label="View Priya Patel's profile">PP</a>
+            <div class="suggestion__details"><a href="#"><strong>Priya Patel</strong></a><p>UX Researcher at Brightside</p><p>2 mutual connections</p><button type="button">＋ Connect</button></div>
+          </div>
+          <div class="suggestion">
+            <a class="avatar avatar--small avatar--david" href="#" aria-label="View David Kim's profile">DK</a>
+            <div class="suggestion__details"><a href="#"><strong>David Kim</strong></a><p>Software Engineer | Building for good</p><p>5 mutual connections</p><button type="button">＋ Connect</button></div>
+          </div>
+          <div class="suggestion">
+            <a class="avatar avatar--small avatar--elena" href="#" aria-label="View Elena Rossi's profile">ER</a>
+            <div class="suggestion__details"><a href="#"><strong>Elena Rossi</strong></a><p>Creative Director at Studio North</p><p>3 mutual connections</p><button type="button">＋ Connect</button></div>
+          </div>
+          <a class="suggestions-more" href="#">Show all <span aria-hidden="true">→</span></a>
+        </section>
+
+        <footer class="site-footer">
+          <nav aria-label="Footer">
+            <a href="#">About</a><a href="#">Accessibility</a><a href="#">Help Center</a>
+            <a href="#">Privacy &amp; Terms</a><a href="#">Ad Choices</a><a href="#">Advertising</a>
+          </nav>
+          <p><span class="footer-brand">Linked<span>in</span></span> Clone Corporation © 2025</p>
+        </footer>
+      </aside>
+    </main>
+  </body>
+</html>
